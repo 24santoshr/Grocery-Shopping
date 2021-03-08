@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  discounter:
+    image: eyeem/discounter:0.0.2
+    ports:
+      - "9000:9000"
+    command:
+      - -DhardShip.failureRate=0
+      - -DhardShip.rateLimit=0

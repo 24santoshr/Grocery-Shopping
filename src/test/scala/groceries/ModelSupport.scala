@@ -1,0 +1,5 @@
+package groceries
+
+trait ModelSupport {
+
+}
